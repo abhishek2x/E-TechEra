@@ -49,13 +49,13 @@
 - Fork and Clone the repo using
 ```
 git clone https://github.com/abhishek2x/E-TechEra
-cd VITBOOK/
+cd E-TechEra/
 ```
 - Install dependencies using
 ```
 pip install -r requirements.txt
 ```
-- Add you email and password in Vitbook/setting.py file(line no: 159
+- Add you email and password in E-TechEra/setting.py file(line no: 159
 ```
 EMAIL_HOST_USER = '<your_gmail_id>'
 EMAIL_HOST_PASSWORD = '<your_password>'

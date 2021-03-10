@@ -1,1 +1,1 @@
-web: gunicorn Vitbook.wsgi --log-file -
+web: gunicorn techera.wsgi --log-file -
