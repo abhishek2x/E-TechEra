@@ -1,0 +1,36 @@
+{#{% extends  'base.html' %}#}
+{#{% load static %}#}
+{#{% block content %}#}
+{##}
+{#  CUSTOM CSS  #}
+{#<link rel="stylesheet" href="{% static 'css/skills.css' %}">#}
+{##}
+{#    <h1>Learner's List</h1>#}
+{#                    {% for n1 in learner_list %}#}
+{##}
+{#                    <div class="card mb-3 infinite-item" style="max-width: 740px;">#}
+{##}
+{#                        <div class="row no-gutters">#}
+{##}
+{#                            <div class="col-md-4">#}
+{#                                <img src="/images/{{n1.profile_pic}}" class="card-img" alt="Not provided">#}
+{#                            </div>#}
+{##}
+{#                            <div class="col-md-8 ">#}
+{#                                <div class="card-body text-left">#}
+{#                                    <h5 class="card-title" style="margin-bottom: 0px;"><b>{{n1.user}}</b> </h5>#}
+{#                                    <p class="card-text" style="margin-bottom: 0px;"><b>First Name</b> : {{n1.first_name}}</p>#}
+{#                                    <p class="card-text" style="margin-bottom: 0px;"><b>Last Name</b> : {{n1.last_name}}</p>#}
+{#                                    <p class="card-text" style="margin-bottom: 0px;"><b>Institution</b> : {{n1.institution}}</p>#}
+{#                                    <p class="card-text" style="margin-bottom: 0px;"><b>Profession</b> : {{n1.profession}}</p>#}
+{#                                    <p class="card-text" style="margin-bottom: 0px;"><b>Relationship status</b>:{{n1.status}}</p>#}
+{#                                </div>#}
+{#                            </div>#}
+{#                            <hr>#}
+{##}
+{#                        </div>#}
+{#                    </div>#}
+{##}
+{#                    {% endfor %}#}
+{##}
+{#{% endblock %}#}

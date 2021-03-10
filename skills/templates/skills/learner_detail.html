@@ -1,0 +1,50 @@
+{% extends  'base.html' %}
+{% load static %}
+{% block content %}
+
+{#  CUSTOM CSS  #}
+<link rel="stylesheet" href="{% static 'css/detail.css' %}">
+
+    <h1 class="p-3">Learner's dashboard</h1>
+    <hr>
+    <section class="row">
+        <div class="col-md-5  text-center">
+            <div class="container p-5 m-3">
+
+                <div class="card-body text-left">
+                    <h5 class="card-title">Username<b> : {{ learner.user.username }}</b> </h5>
+                    <p class="card-text" ><b>Name</b> : {{ learner.name }}</p>
+                    <p class="card-text" ><b>Institution</b> : {{ learner.institution }}</p>
+                    <p class="card-text" ><b>Profession</b> : {{ learner.profession }}</p>
+                    <p class="card-text text-break" ><b>Description</b> :-<br> {{ learner.description }}</p>
+                    <hr>
+                    <div class="flex container">
+                        {% if learner.linkedin_profile %}
+                            <p><a href="{{ learner.linkedin_profile }}">
+                                <i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i>
+                            </a></p>
+                        {% endif %}
+                        {% if learner.github_profile %}
+                            <p><a href="{{ learner.github_profile }}">
+                                <i class="fa fa-github-square fa-2x" aria-hidden="true"></i>
+                            </a></p>
+                        {% endif %}
+                        {% if learner.Other_profile %}
+                            <p><a href="{{ learner.Other_profile }}">
+                                <i class="fa fa-connectdevelop fa-2x" aria-hidden="true"></i>
+                            </a></p>
+                        {% endif %}
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-5 text-center">
+            <div class="container p-5 m-3 text-center">
+                <img src="/images/{{learner.profile_pic}}" alt="N/A">
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

@@ -1,0 +1,23 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Jura:wght@300&display=swap');h1{
+    font-family: 'Crimson Pro', serif;
+}
+
+ .card{
+     margin: 40px;
+ }
+
+ .card:hover{
+     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+     /*margin: auto;*/
+ }
+
+ a.btn-success{
+     font-family: 'Jura', sans-serif;
+ }
+
+ h5.card-title{
+     font-family: 'Crimson Pro', serif;
+     font-weight: 900;
+     font-size: 2rem;
+ }

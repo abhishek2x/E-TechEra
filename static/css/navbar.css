@@ -1,0 +1,20 @@
+
+.navbar-light .navbar-nav .active > .nav-link{
+    color: #b7c9cc;
+    font-weight: 600;
+    margin: auto;
+    margin-right: 15px;
+}
+
+a#navbarDropdownMenuLink{
+    color: #b7c9cc;
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+a.navbar-brand{
+    color: white !important;
+    font-weight: bolder;
+    margin-left: 100px;;
+    /*margin-left: 70px;*/
+}

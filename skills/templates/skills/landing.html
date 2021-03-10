@@ -1,0 +1,35 @@
+{% extends  'base.html' %}
+{% load static %}
+{% block content %}
+
+    <link rel="stylesheet" href="{% static 'css/landing.css' %}">
+
+
+    <section class="row p-5">
+        <div class="col-md-6">
+            <div class="company">
+                <h1>Techera</h1>
+            </div>
+            <hr>
+            <br>
+            <div class="anyLink">
+                <h2 class="display-4">A Platform to Learn and test your skills.</h2>
+            </div>
+            <br>
+            <div class="container text-center">
+                <div class="card w-75" style="width: 18rem;">
+                  <div class="card-body">
+                    <h5 class="card-title"><b>Start Learning</b></h5>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content
+                        natural lead-in to additional content.</p>
+                    <a href="{% url 'skills' %}" class="btn btn-primary">Explore</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 text-right">
+            <img src="{% static 'images/Landing-2.png' %}" alt="Landing Image" height="450px">
+        </div>
+    </section>
+
+{% endblock %}s

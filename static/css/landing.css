@@ -1,0 +1,14 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Jura:wght@300&display=swap');h1{
+    font-family: 'Crimson Pro', serif;
+}
+
+ /*@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');*/
+div.anyLink > h2.display-4{
+    font-family: 'Jura', sans-serif;
+    opacity: 0.8;
+}
+
+img{
+    margin-top: 30px;
+}
